@@ -8,7 +8,7 @@ const db = require('pro.db')
 const menu_apply = async (Client, Interaction, channel) => {
     switch (Interaction.customId) {
         case 'mention': {
-            Interaction.channel.send({ content: `> <a:977003084054151198:1226882217544781885> <@&1225127482043273328> | <@&986670563252658242>` })
+            Interaction.channel.send({ content: `> <a:977003084054151198:122682217544781885> <@&1225127482043273328> | <@&986670563252658242>` })
             Interaction.reply({ content: `**Done**`, ephemeral: true })
         }
             break;
@@ -324,5 +324,6 @@ const menu_apply = async (Client, Interaction, channel) => {
         }
     }
 }
+
 
 module.exports = menu_apply;
