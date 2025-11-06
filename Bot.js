@@ -30,7 +30,7 @@ setTimeout(async() => {
     }
 }, 3 * 1000 * 60)
 
-client.login(`MTIyNzQyNzM1ODMzNjg3NjYxNA.G6yTXb._dRqFlxU319EwjnaHlAtuqfK8uW0BQ9-BMyeOA`)
+client.login(``)
 
 const ms = require('ms');
 const azkarChannel = '986670563290394644';
@@ -90,4 +90,5 @@ client.on('messageCreate', async Message => {
 
   Message.channel.send({embeds: [embed]})
   }
+
 })
